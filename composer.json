@@ -1,0 +1,20 @@
+{
+    "name": "livetyping/hermitage-skeleton",
+    "description": "Hermitage Skeleton",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Kudinov",
+            "email": "i.kudinov@frostealth.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "livetyping/hermitage": "~0.1"
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "php -r \"copy('.env.example', '.env');\""
+        ]
+    }
+}

@@ -16,7 +16,7 @@ More Hermitage documentation in [Hermitage repo](https://github.com/LiveTyping/h
 Run the [Composer](https://getcomposer.org) command to install:
 
 ```bash
-composer require livetyping/hermitage-skeleton ~0.1
+composer create-project livetyping/hermitage-skeleton hermitage
 ```
 
 # Configuration

@@ -13,4 +13,9 @@ return [
         'resize' => \livetyping\hermitage\foundation\images\processor\manipulators\Resize::class,
         'fit' => \livetyping\hermitage\foundation\images\processor\manipulators\Fit::class,
     ],
+
+    // slim framework settings
+    'settings.httpVersion' => '1.1',
+    'settings.responseChunkSize' => 4096,
+    'settings.displayErrorDetails' => false,
 ];

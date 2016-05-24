@@ -1,13 +1,13 @@
 Hermitage Skeleton
 ==================
 
-This is web-application skeletone for the Hermitage - cool image storage and image manager in one for your applications!
+This is web-application skeleton for the Hermitage - cool image storage and image manager in one for your applications!
 
-Hermitage is a micro-service based on Slim that provides storage, 
-delivery and modification of your images for the desired clients and devices. Hermitage can:
-* Take and give the image through the simple REST API
-* Use as a repository local file system, or Amazon S3. If this is not enough, you can easily write your own adapter
-* Give the image in one of a few preset formats. Add your own - a matter of seconds!
+Hermitage is a micro-service based on Slim. It provides storage, 
+delivery and modification of your images for clients and devices you want. Hermitage can:
+* Take and put the image through the simple REST API
+* Use local file system or Amazon S3 as a repository. And you can easily write your own adapter if needed.
+* Put the image in one of preset formats. You can add your own - it's a matter of seconds!
 
 More Hermitage documentation in [Hermitage repo](https://github.com/LiveTyping/hermitage)
 
@@ -23,7 +23,7 @@ composer create-project livetyping/hermitage-skeleton hermitage
 
 ### Environment variables
 
-Copy the `.env.example` file to the local `.env` and configure it:
+Copy the `.env.example` file to a local `.env` and configure it:
 
 ```bash
 cp vendor/livetyping/hermitage/.env.example .env
